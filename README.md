@@ -48,14 +48,18 @@ Buka browser ke:
 
 ```json
 {
-  "Name": "John Doe",
-  "Pclass": 2,
-  "Sex": "male",
-  "Age": 30,
-  "SibSp": 1,
-  "Parch": 0,
-  "Fare": 13.5,
-  "Embarked": "S"
+  "Number_Of_Doctors_Visited": 2,
+  "Physical_Health": 3,
+  "Mental_Health": 1,
+  "Dental_Health": 2,
+  "Stress_Keeps_Patient_from_Sleeping": 1,
+  "Medication_Keeps_Patient_from_Sleeping": 0,
+  "Pain_Keeps_Patient_from_Sleeping": 1,
+  "Bathroom_Needs_Keeps_Patient_from_Sleeping": 1,
+  "Trouble_Sleeping": 1,
+  "Prescription_Sleep_Medication": 0,
+  "Gender": 1,
+  "Race": 1
 }
 ```
 
@@ -63,11 +67,19 @@ Buka browser ke:
 
 ```json
 {
-  "name": "John Doe",
-  "prediction": 1,
-
-
-  "result": "Survived"
+  "manual_average_health": 2,
+  "model_prediction": 3.1178811341029746,
+  "feature_importance": {
+    "Pain Keeps Patient from Sleeping": 0.20654737750262592,
+    "Trouble Sleeping": 0.1681746248182978,
+    "Race": 0.12169952228654958,
+    "Number of Doctors Visited": 0.11353810110469066,
+    "Gender": 0.11331708162616767,
+    "Prescription Sleep Medication": 0.0893960279195913,
+    "Stress Keeps Patient from Sleeping": 0.0815791924581104,
+    "Medication Keeps Patient from Sleeping": 0.06039109856284044,
+    "Bathroom Needs Keeps Patient from Sleeping": 0.045356973721126244
+  }
 }
 ```
 
