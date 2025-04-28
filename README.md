@@ -16,8 +16,8 @@ Sebuah mini-proyek berbasis FastAPI yang dapat memprediksi faktor yang paling be
 ## Cara Menjalankan
 ### 1. Clone Repositori
 ```bash
-git clone https://github.com/Daivageralda/titanic-fastapi.git
-cd titanic-fastapi
+git clone [https://github.com/david123410/Postest-PDAB-1.git]
+cd Postest-PDAB-1
 ```
 
 ### 2. Buat Virtual Environment
