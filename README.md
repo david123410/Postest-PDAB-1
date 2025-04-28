@@ -4,9 +4,9 @@ Sebuah mini-proyek berbasis FastAPI yang dapat memprediksi faktor yang paling be
 ## Struktur File
 ```
 ├── main.py             # Endpoint API utama
-├── model_rfr.pkl           # File model Machine Learning yang telah dilatih
+├── model_rfr.pkl       # File model Machine Learning yang telah dilatih
 ├── scaler.pkl          # File scaler untuk normalisasi fitur input
-├── req.txt    # Daftar dependency yang dibutuhkan
+├── req.txt             # Daftar dependency yang dibutuhkan
 ```
 
 ## Fitur API
